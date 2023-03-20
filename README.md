@@ -1,0 +1,2 @@
+# locsatoto
+Cursed Project
