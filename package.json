@@ -20,6 +20,9 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@fastify/cookie": "^8.3.0",
+    "@fastify/secure-session": "^6.0.0",
+    "@fastify/session": "^10.1.1",
     "@fastify/static": "^6.9.0",
     "@fastify/view": "^7.4.1",
     "@nestjs/common": "^9.0.0",
@@ -29,6 +32,11 @@
     "@nestjs/platform-express": "^9.0.0",
     "@nestjs/platform-fastify": "^9.3.11",
     "@nestjs/typeorm": "^9.0.1",
+    "@types/express-session": "^1.17.7",
+    "bcrypt": "^5.1.0",
+    "express-session": "^1.17.3",
+    "handlebars": "^4.7.7",
+    "hbs": "^4.2.0",
     "mustache": "^4.2.0",
     "mysql2": "^3.2.0",
     "passport": "^0.6.0",
